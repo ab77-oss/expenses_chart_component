@@ -1,0 +1,187 @@
+@import url("//fonts.googleapis.com/css?family=Open+Sans:400,700");
+.container {
+  background-color: hsl(33deg, 100%, 98%);
+  border-radius: 15px;
+  text-align: center;
+  margin: 0px auto;
+  padding: 10px 20px;
+}
+.container .title {
+  font-size: 18px;
+  padding-top: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+@media (min-width:413px) {
+  .container .title {
+    font-size: 32px;
+    margin: 0 20px;
+  }
+}
+.container hr {
+  border: 1px solid #F8E9DD;
+}
+.container .chart {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (min-width:413px) {
+  .container .chart {
+    padding: 30px 10px;
+  }
+}
+.container .chart .d {
+  width: 10.8571428571%;
+  align-self: flex-end;
+  text-align: center;
+}
+@media (min-width:413px) {
+  .container .chart .d {
+    width: 13.1428571429%;
+  }
+}
+.container .chart .d .amount {
+  visibility: hidden;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 5px auto;
+  font-size: 8px;
+  padding: 10px 0px;
+  width: 100%;
+}
+@media (min-width:413px) {
+  .container .chart .d .amount {
+    font-size: 15px;
+    padding: 10px 5px;
+  }
+}
+.container .chart .d .day {
+  border-radius: 5px;
+  width: 100%;
+  background-color: hsl(10deg, 79%, 65%);
+  margin: 0px auto;
+}
+.container .chart .d .day:hover {
+  cursor: pointer;
+  background-color: #FF9B86;
+}
+@media (min-width:413px) {
+  .container .chart .d .day {
+    width: 70%;
+  }
+}
+.container .chart .d .da {
+  color: hsl(28deg, 10%, 53%);
+  font-size: 12px;
+  margin: 0px auto;
+}
+@media (min-width:413px) {
+  .container .chart .d .da {
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+  }
+}
+.container .chart .d .new {
+  background-color: hsl(186deg, 34%, 60%);
+}
+.container .chart .d .new:hover {
+  background-color: #B4E0E5;
+}
+.container .bottom {
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.container .bottom .bottom-1 .montant {
+  font-size: 20px;
+  font-weight: bold;
+}
+@media (min-width:413px) {
+  .container .bottom .bottom-1 .montant {
+    font-size: 48px;
+  }
+}
+.container .bottom .bottom-1 .total {
+  margin-bottom: 30px;
+  color: hsl(28deg, 10%, 53%);
+  font-size: 10px;
+}
+@media (min-width:413px) {
+  .container .bottom .bottom-1 .total {
+    font-size: 18px;
+  }
+}
+.container .bottom .bottom-2 .rate {
+  color: hsl(28deg, 10%, 53%);
+  font-size: 15px;
+  margin-top: 30px;
+}
+@media (min-width:413px) {
+  .container .bottom .bottom-2 .rate {
+    font-size: 18px;
+  }
+}
+.container .bottom .bottom-2 .last_month {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.my_balance {
+  background-color: hsl(10deg, 79%, 65%);
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  margin: 10px auto;
+  padding: 0px 10px;
+  font-size: 32px;
+}
+.my_balance h4 {
+  font-size: 15px;
+}
+@media (min-width:413px) {
+  .my_balance h4 {
+    font-size: 18px;
+  }
+}
+.my_balance h1 {
+  font-size: 24px;
+}
+@media (min-width:413px) {
+  .my_balance h1 {
+    font-size: 32px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(27deg, 66%, 92%);
+  margin: 0px auto;
+}
+body .App {
+  height: 500px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (min-width:413px) {
+  body .App {
+    margin: 10px auto;
+    height: 530px;
+    width: 510px;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+}/*# sourceMappingURL=main.css.map */

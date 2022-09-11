@@ -1,0 +1,30 @@
+@import url("//fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color:$Cream ;
+    margin: 0px auto;
+    .App {
+       
+            height:500px;
+            width:90%;
+            margin: 0 auto;
+            text-align: center;
+
+        @media #{$minLarge}{    
+            margin:10px auto;
+            height:530px;
+            width:510px;
+            position: absolute;
+            bottom: 50%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+        }
+        
+        
+       
+      }
+}
