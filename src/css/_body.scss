@@ -115,8 +115,9 @@
         .bottom-2 {
             .rate {
                 
-                color:$Medium_brown;
+                
                 font-size: 15px;
+                font-weight: bold;
                 margin-top:30px;
                 @media #{$minLarge}{
                     font-size:18px;
@@ -126,6 +127,11 @@
                 
                 font-weight: bold;
                 font-size: 10px;
+                color:$Medium_brown;
+                @media #{$minLarge}{
+                    font-size:18px;
+                }
+
              
             }
         }

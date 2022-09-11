@@ -118,8 +118,8 @@
   }
 }
 .container .bottom .bottom-2 .rate {
-  color: hsl(28deg, 10%, 53%);
   font-size: 15px;
+  font-weight: bold;
   margin-top: 30px;
 }
 @media (min-width:413px) {
@@ -130,6 +130,12 @@
 .container .bottom .bottom-2 .last_month {
   font-weight: bold;
   font-size: 10px;
+  color: hsl(28deg, 10%, 53%);
+}
+@media (min-width:413px) {
+  .container .bottom .bottom-2 .last_month {
+    font-size: 18px;
+  }
 }
 
 .my_balance {
